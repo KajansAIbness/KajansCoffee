@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>Free Coffee Redemption</title></head>
+<body>
+  <h2>Redeem Your Free Coffee</h2>
+  <form id="redeemForm">
+    <label for="phone">Enter your phone number:</label><br>
+    <input type="tel" id="phone" name="phone" required pattern="[0-9]{10,15}"><br><br>
+    <button type="submit">Redeem</button>
+  </form>
+
+  <p id="response"></p>
+
+  <script>
+    const form = document.getElementById('redeemForm');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const phone = form.phone.value;
+
+      const response = await fetch('YOUR_WEBHOOK_URL', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ phone })
+      });
+
+      const result = await response.json();
+      document.getElementById('response').textContent = result.message;
+    });
+  </script>
+</body>
+</html>
