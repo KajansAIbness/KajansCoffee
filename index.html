@@ -6,8 +6,15 @@
 <body>
   <h2>Redeem Your Free Coffee</h2>
   <form method="POST" action="http://localhost:5678/webhook-test/freecoffee">
+    <label for="name">Enter your name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Enter your email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
     <label for="phone">Enter your phone number:</label><br>
     <input type="tel" id="phone" name="phone" required pattern="[0-9]{10,15}"><br><br>
+
     <button type="submit">Redeem</button>
   </form>
 </body>
