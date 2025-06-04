@@ -56,7 +56,7 @@ export default function CoffeeRedemptionForm() {
             <CardContent>
               <form
                 method="POST"
-                action="http://localhost:5678/webhook-test/freecoffee"
+                action="https://c56e-144-82-8-167.ngrok-free.app/webhook-test/freecoffee"
                 onSubmit={handleSubmit}
                 className="space-y-6"
               >
