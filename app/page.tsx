@@ -28,7 +28,7 @@ export default function MilkmanRedemptionForm() {
             </div>
             <div className="text-center">
               <p className="text-lg text-gray-600 font-medium">Ice Cream • Desserts • Treats</p>
-              <p className="text-sm text-gray-500">Camden's Sweetest Spot</p>
+              <p className="text-sm text-gray-500">Euston's Sweetest Spot</p>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ export default function MilkmanRedemptionForm() {
           <div className="text-center mb-8">
             <div className="inline-flex items-center gap-2 bg-gray-800 text-white px-6 py-3 rounded-lg text-sm font-medium mb-4">
               <MapPin className="h-4 w-4" />
-              134 Drummond Street, Camden, NW1 2PA
+              134 Drummond Street, Euston, NW1 2PA
             </div>
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-xl text-lg font-semibold mb-6 shadow-lg">
               <Gift className="h-5 w-5" />
@@ -49,7 +49,7 @@ export default function MilkmanRedemptionForm() {
             </div>
             <h2 className="text-3xl font-bold text-gray-800 mb-3">Sweet Treats Await!</h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Discover Camden's favorite ice cream and dessert destination.
+              Discover Euston's favorite ice cream and dessert destination.
               <br />
               Claim your complimentary treat and taste the difference!
             </p>
@@ -191,9 +191,49 @@ export default function MilkmanRedemptionForm() {
           <div className="mt-8 text-center bg-gradient-to-r from-gray-800 to-gray-900 text-white p-6 rounded-xl">
             <h3 className="text-lg font-semibold mb-2">Visit Us Today!</h3>
             <p className="text-sm text-gray-300 mb-3">
-              Experience Camden's sweetest destination at 134 Drummond Street
+              Experience Euston's sweetest destination at 134 Drummond Street
             </p>
             <p className="text-xs text-gray-400">Open daily • Takeaway available • Perfect for treats on the go</p>
+          </div>
+
+          {/* Social Links */}
+          <div className="mt-8 text-center">
+            <p className="text-sm text-gray-600 mb-4">Follow us for sweet updates</p>
+            <div className="flex justify-center gap-6">
+              <a
+                href="https://www.facebook.com/profile.php?id=100071274365934"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors font-medium"
+              >
+                <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                  <span className="text-sm font-bold">f</span>
+                </div>
+                Facebook
+              </a>
+              <a
+                href="https://www.instagram.com/milkmanlondon/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-pink-600 hover:text-pink-700 transition-colors font-medium"
+              >
+                <div className="w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center">
+                  <span className="text-sm font-bold">@</span>
+                </div>
+                Instagram
+              </a>
+              <a
+                href="https://milkmanlondon.co.uk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-gray-600 hover:text-gray-700 transition-colors font-medium"
+              >
+                <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                  <span className="text-sm font-bold">🌐</span>
+                </div>
+                Website
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -206,7 +246,7 @@ export default function MilkmanRedemptionForm() {
               <Image src="/images/milkman-logo.png" alt="Milkman Logo" fill className="object-contain" />
             </div>
           </div>
-          <p className="text-gray-600 text-sm mb-2">134 Drummond Street, Camden, London NW1 2PA</p>
+          <p className="text-gray-600 text-sm mb-2">134 Drummond Street, Euston, London NW1 2PA</p>
           <p className="text-gray-500 text-xs">
             © 2024 Milkman London. All rights reserved. | Terms & Conditions | Privacy Policy
           </p>

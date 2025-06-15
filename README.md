@@ -1,6 +1,6 @@
 # Milkman London - Free Treat Redemption Form
 
-A modern, responsive form for Milkman London's complimentary treat program. Located in Camden at 134 Drummond Street, Milkman is Camden's favorite ice cream and dessert takeaway destination.
+A modern, responsive form for Milkman London's complimentary treat program. Located in Euston at 134 Drummond Street, Milkman is Euston's favorite ice cream and dessert takeaway destination.
 
 ## Features
 
@@ -14,7 +14,7 @@ A modern, responsive form for Milkman London's complimentary treat program. Loca
 
 ## About Milkman London
 
-Milkman London is a vibrant ice cream and dessert takeaway spot located at 134 Drummond Street, Camden, NW1 2PA. 
+Milkman London is a vibrant ice cream and dessert takeaway spot located at 134 Drummond Street, Euston, NW1 2PA. 
 
 ### Our Offerings:
 - **Ice Cream** - Soft-serve & scooped varieties
@@ -22,6 +22,11 @@ Milkman London is a vibrant ice cream and dessert takeaway spot located at 134 D
 - **Crepes** - Both savory and sweet styles
 - **Smoothies** - Fresh and fruity options
 - **Specialty Hot Drinks** - Including Karak Chai
+
+### Connect With Us:
+- **Website**: [milkmanlondon.co.uk](https://milkmanlondon.co.uk/)
+- **Instagram**: [@milkmanlondon](https://www.instagram.com/milkmanlondon/)
+- **Facebook**: [Milkman London](https://www.facebook.com/profile.php?id=100071274365934)
 
 ## Getting Started
 
