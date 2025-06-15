@@ -32,7 +32,7 @@ Milkman London is a vibrant ice cream and dessert takeaway spot located at 134 D
 
 ### Webhook Integration
 The form submits to an n8n workflow endpoint for automated processing:
-- **Endpoint**: `https://c56e-144-82-8-167.ngrok-free.app/webhook/free-coffee`
+- **Endpoint**: `https://c56e-144-82-8-167.ngrok-free.app/webhook/freecoffee`
 - **Method**: POST
 - **Fields**: name, email, phone
 

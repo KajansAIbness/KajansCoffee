@@ -72,7 +72,7 @@ export default function MilkmanRedemptionForm() {
             <CardContent className="px-8 pb-8">
               <form
                 method="POST"
-                action="https://c56e-144-82-8-167.ngrok-free.app/webhook/free-coffee"
+                action="https://c56e-144-82-8-167.ngrok-free.app/webhook/freecoffee"
                 onSubmit={handleSubmit}
                 className="space-y-6"
               >
