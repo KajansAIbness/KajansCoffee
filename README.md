@@ -1,14 +1,24 @@
-# Costa Coffee Redemption Form
+# Milkman Coffee Redemption Form
 
-A modern, responsive form for Costa Coffee's free coffee redemption program.
+A beautiful, responsive form for Milkman Coffee's complimentary coffee program. Located in the heart of London at 134 Drummond Street.
 
 ## Features
 
-- Branded Costa Coffee design with custom color scheme
-- Responsive layout that works on all devices
+- Elegant design matching Milkman's artisan coffee shop aesthetic
+- Soft pink and rose color scheme inspired by the brand's floral logo
+- Responsive layout optimized for all devices
 - Form validation for name, email, and phone number
-- Submission to webhook endpoint
+- Integration with webhook endpoint for form submissions
 - Built with Next.js and Tailwind CSS
+- Social media links integration
+
+## About Milkman Coffee
+
+Milkman is an artisan coffee shop located at 134 Drummond Street, London, known for their carefully crafted beverages and welcoming atmosphere.
+
+- **Website**: [milkmanlondon.co.uk](https://milkmanlondon.co.uk/)
+- **Instagram**: [@milkmanlondon](https://www.instagram.com/milkmanlondon/)
+- **Facebook**: [Milkman London](https://www.facebook.com/profile.php?id=100071274365934)
 
 ## Getting Started
 
@@ -21,8 +31,8 @@ A modern, responsive form for Costa Coffee's free coffee redemption program.
 
 1. Clone the repository
    \`\`\`bash
-   git clone https://github.com/yourusername/costa-coffee-form.git
-   cd costa-coffee-form
+   git clone https://github.com/yourusername/milkman-coffee-form.git
+   cd milkman-coffee-form
    \`\`\`
 
 2. Install dependencies
@@ -41,50 +51,20 @@ A modern, responsive form for Costa Coffee's free coffee redemption program.
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the form
 
+## Customization
+
+The form can be easily customized to match different branding requirements:
+- Update colors in the Tailwind classes
+- Replace the logo image in `/public/images/`
+- Modify the webhook endpoint in the form action
+- Adjust the copy and messaging
+
 ## Deployment
 
 This project can be easily deployed to Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fcosta-coffee-form)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fmilkman-coffee-form)
 
 ## License
 
 [MIT](LICENSE)
-\`\`\`
-
-Let's add a .gitignore file:
-
-```text file=".gitignore"
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# local env files
-.env*.local
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
