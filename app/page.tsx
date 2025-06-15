@@ -72,7 +72,7 @@ export default function MilkmanRedemptionForm() {
             <CardContent className="px-8 pb-8">
               <form
                 method="POST"
-                action="http://localhost:5678/webhook-test/freecoffee"
+                action="https://c56e-144-82-8-167.ngrok-free.app/webhook/free-coffee"
                 onSubmit={handleSubmit}
                 className="space-y-6"
               >
@@ -146,7 +146,7 @@ export default function MilkmanRedemptionForm() {
                 <p className="text-xs text-gray-500 leading-relaxed">
                   By submitting this form, you agree to receive updates about our latest treats and special offers.
                   <br />
-                  One complimentary item per customer. Valid at our Camden location only.
+                  One complimentary item per customer. Valid at our Euston location only.
                 </p>
               </div>
             </CardContent>

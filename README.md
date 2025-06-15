@@ -8,7 +8,7 @@ A modern, responsive form for Milkman London's complimentary treat program. Loca
 - Cool blue color scheme reflecting the ice cream focus
 - Responsive layout optimized for all devices
 - Form validation for name, email, and phone number
-- Integration with webhook endpoint for form submissions
+- Integration with n8n webhook for automated form processing
 - Built with Next.js and Tailwind CSS
 - Showcases full range of offerings (ice cream, desserts, crepes, drinks)
 
@@ -17,16 +17,29 @@ A modern, responsive form for Milkman London's complimentary treat program. Loca
 Milkman London is a vibrant ice cream and dessert takeaway spot located at 134 Drummond Street, Euston, NW1 2PA. 
 
 ### Our Offerings:
-- **Ice Cream** - Soft-serve & scooped varieties
-- **Sweet Treats** - Cakes and waffles
+- **Soft-serve & Scooped Ice Cream** - Their core product
+- **Sweet Treats** - Including cakes and waffles
 - **Crepes** - Both savory and sweet styles
 - **Smoothies** - Fresh and fruity options
-- **Specialty Hot Drinks** - Including Karak Chai
+- **Specialty Hot Drinks** - For example, Karak Chai
 
 ### Connect With Us:
 - **Website**: [milkmanlondon.co.uk](https://milkmanlondon.co.uk/)
 - **Instagram**: [@milkmanlondon](https://www.instagram.com/milkmanlondon/)
 - **Facebook**: [Milkman London](https://www.facebook.com/profile.php?id=100071274365934)
+
+## Technical Details
+
+### Webhook Integration
+The form submits to an n8n workflow endpoint for automated processing:
+- **Endpoint**: `https://c56e-144-82-8-167.ngrok-free.app/webhook/free-coffee`
+- **Method**: POST
+- **Fields**: name, email, phone
+
+### Form Fields
+- **name**: Customer's full name (required, text input)
+- **email**: Customer's email address (required, email validation)
+- **phone**: Customer's phone number (required, tel input with pattern validation)
 
 ## Getting Started
 
